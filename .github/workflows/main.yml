@@ -12,6 +12,7 @@ jobs:
     permissions:
       contents: write
     steps:
+### base
       - name: Default metrics
         uses: lowlighter/metrics@latest
         with:
@@ -19,6 +20,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
 
+### isocalendar
       - name: Full-year calendar_HSCHOI
         uses: lowlighter/metrics@latest
         with:
@@ -37,6 +39,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
+### history lines
       - name: Compact display in base plugin organization
         uses: lowlighter/metrics@latest
         with:
@@ -80,6 +83,7 @@ jobs:
           repositories_skipped: |
             lowlighter/metrics
 
+### commit calendar
       - name: Full history calendar hschoi
         uses: lowlighter/metrics@latest
         with:
@@ -120,10 +124,20 @@ jobs:
           plugin_calendar: yes
           plugin_calendar_limit: 0
           
+### pull reqeust
+      - name: Indepth analysis
+        uses: lowlighter/metrics@latest
+        with:
+          filename: output.metrics.plugin.followup.indepth.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_followup: yes
+          plugin_followup_indepth: yes
+          
       - name: Opened by user hschoi
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.followup.user.hschoi.svg
+          filename: output.metrics.plugin.followup.user.hschoi.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: cnf-hschoi
           base: ""
@@ -133,7 +147,7 @@ jobs:
       - name: Opened by user swbae
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.followup.user.swbae.svg
+          filename: output.metrics.plugin.followup.user.swbae.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: cnf-swbae
           base: ""
@@ -143,7 +157,7 @@ jobs:
       - name: Opened by user matthieu
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.followup.user.matthieu.svg
+          filename: output.metrics.plugin.followup.user.matthieu.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: matthieugusmini
           base: ""
@@ -153,7 +167,7 @@ jobs:
       - name: Opened by user jskim
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.followup.user.jskim.svg
+          filename: output.metrics.plugin.followup.user.jskim.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: Jinsookim007
           base: ""
@@ -163,7 +177,7 @@ jobs:
       - name: Opened by user sykang
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.followup.user.sykang.svg
+          filename: output.metrics.plugin.followup.user.sykang.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: sykang-fit
           base: ""
@@ -173,7 +187,7 @@ jobs:
       - name: Opened by user jwheo
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.followup.user.jwheo.svg
+          filename: output.metrics.plugin.followup.user.jwheo.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: jwheo144
           base: ""
@@ -183,7 +197,7 @@ jobs:
       - name: Opened by user hykwon
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.followup.user.hykwon.svg
+          filename: output.metrics.plugin.followup.user.hykwon.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: bluuudawn
           base: ""
