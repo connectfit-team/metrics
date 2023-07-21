@@ -46,7 +46,6 @@ jobs:
           plugin_lines_repositories_limit: 20
           plugin_lines_history_limit: 10
           repositories_skipped: |
-            @use.patterns
             lowlighter/metrics
 
       - name: Compact display in base plugin hschoi
@@ -62,7 +61,6 @@ jobs:
           plugin_lines_repositories_limit: 20
           plugin_lines_history_limit: 10
           repositories_skipped: |
-            @use.patterns
             lowlighter/metrics
           
         
@@ -78,5 +76,4 @@ jobs:
           plugin_lines_repositories_limit: 20
           plugin_lines_history_limit: 10
           repositories_skipped: |
-            @use.patterns
             lowlighter/metrics
