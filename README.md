@@ -60,9 +60,10 @@ Generate metrics that can be embedded everywhere, including your GitHub profile 
         <details open><summary>Languages from star lists</summary><img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.starlists.languages.svg" alt=""></img></details>
         <img width="900" height="1" alt="">
       </td>
-        <td  align="center">
+      <td  align="center">
         <details open><summary>Full history metew</summary><img alt="" width="400" src="output.metrics.plugin.calendar.full.matthieu.svg" alt=""></img></details>
         <details open><summary>Full history hschoi</summary><img alt="" width="400" src="output.metrics.plugin.calendar.full.hschoi.svg" alt=""></img></details>
+        <details open><summary>Full history swbae</summary><img alt="" width="400" src="output.metrics.plugin.calendar.full.swbae.svg" alt=""></img></details>
         <img width="900" height="1" alt="">
       </td>
   </tr>
