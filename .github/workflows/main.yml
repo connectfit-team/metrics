@@ -65,8 +65,7 @@ jobs:
           plugin_lines_history_limit: 10
           repositories_skipped: |
             lowlighter/metrics
-          
-        
+              
       - name: Compact display in base plugin matthieu
         uses: lowlighter/metrics@latest
         with:
@@ -80,3 +79,12 @@ jobs:
           plugin_lines_history_limit: 10
           repositories_skipped: |
             lowlighter/metrics
+
+      - name: Full history calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: output.metrics.plugin.calendar.full.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_calendar: yes
+          plugin_calendar_limit: 0
