@@ -99,3 +99,13 @@ jobs:
           base: ""
           plugin_calendar: yes
           plugin_calendar_limit: 0
+          
+      - name: Full history calendar swbae
+        uses: lowlighter/metrics@latest
+        with:
+          filename: output.metrics.plugin.calendar.full.swbae.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: cnf-swbae
+          base: ""
+          plugin_calendar: yes
+          plugin_calendar_limit: 0
