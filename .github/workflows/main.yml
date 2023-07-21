@@ -39,7 +39,8 @@ jobs:
         with:
           filename: output.metrics.plugin.lines.history.organization.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          organization: connectfit-team
+#           organization: connectfit-team
+          user: connectfit-team
           base: ""
           plugin_lines: yes
           plugin_lines_sections: repositories, history
