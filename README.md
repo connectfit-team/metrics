@@ -62,7 +62,7 @@ Generate metrics that can be embedded everywhere, including your GitHub profile 
       </td>
         <td  align="center">
         <details><summary>Current year</summary><img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.calendar.svg" alt=""></img></details>
-        <details open><summary>Full history</summary><img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.calendar.full.svg" alt=""></img></details>
+        <details open><summary>Full history</summary><img alt="" width="400" src="output.metrics.plugin.calendar.full.svg" alt=""></img></details>
         <img width="900" height="1" alt="">
       </td>
   </tr>
