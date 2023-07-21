@@ -182,7 +182,8 @@ jobs:
           user: sykang-fit
           base: ""
           plugin_followup: yes
-          plugin_followup_sections: user          
+          plugin_followup_sections: repositories                    
+          plugin_followup_indepth: yes
 
       - name: Opened by user jwheo
         uses: lowlighter/metrics@latest
@@ -192,7 +193,8 @@ jobs:
           user: jwheo144
           base: ""
           plugin_followup: yes
-          plugin_followup_sections: user          
+          plugin_followup_sections: user
+          plugin_followup_indepth: yes
 
       - name: Opened by user hykwon
         uses: lowlighter/metrics@latest
@@ -202,4 +204,4 @@ jobs:
           user: bluuudawn
           base: ""
           plugin_followup: yes
-          plugin_followup_sections: user          
+          plugin_followup_sections: repositories          
