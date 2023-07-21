@@ -16,11 +16,20 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
-      - name: Full-year calendar
+      - name: Full-year calendar_HSCHOI
         uses: lowlighter/metrics@latest
         with:
-          filename: output.metrics.plugin.isocalendar.fullyear.svg
+          filename: output.metrics.plugin.isocalendar.fullyear.hschoi.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      - name: Full-year calendar_MATTHIEU
+        uses: lowlighter/metrics@latest
+        with:
+          filename: output.metrics.plugin.isocalendar.fullyear.matthieu.svg
+          token: ${{ secrets.METRICS_TOKEN_MATTHIEU }}
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
