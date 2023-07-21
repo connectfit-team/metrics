@@ -20,7 +20,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: output.metrics.plugin.isocalendar.fullyear.hschoi.svg
-#           token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
@@ -29,7 +29,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: output.metrics.plugin.isocalendar.fullyear.matthieu.svg
-#           token: ${{ secrets.METRICS_TOKEN_MATTHIEU }}
+          token: ${{ secrets.METRICS_TOKEN_MATTHIEU }}
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
@@ -38,7 +38,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: output.metrics.plugin.lines.history.organization.svg
-#           token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           organization: connectfit-team
           base: ""
           plugin_lines: yes
@@ -52,7 +52,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: output.metrics.plugin.lines.history.hschoi.svg
-#           token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           user: cnf-hschoi
           base: ""
           plugin_lines: yes
@@ -67,7 +67,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: output.metrics.plugin.lines.history.matthieu.svg
-#           token: ${{ secrets.METRICS_TOKEN_MATTHIEU }}
+          token: ${{ secrets.METRICS_TOKEN_MATTHIEU }}
           user: matthieugusmini
           base: ""
           plugin_lines: yes
