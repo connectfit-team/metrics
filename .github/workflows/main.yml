@@ -12,9 +12,12 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Default metrics
+        uses: lowlighter/metrics@latest
         with:
+          filename: metrics.base.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          base: header, activity, community, repositories, metadata
 
       - name: Full-year calendar_HSCHOI
         uses: lowlighter/metrics@latest
