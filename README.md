@@ -33,9 +33,9 @@ Generate metrics that can be embedded everywhere, including your GitHub profile 
         <img width="900" height="1" alt="">
       </td>
         <td  align="center">
-        <details open><summary>Repositories and diff history organization</summary><img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.lines.history.svg" alt=""></img></details>
-        <details open><summary>Repositories and diff history hschoi</summary><img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.lines.history.svg" alt=""></img></details>
-        <details open><summary>Repositories and diff history matthieu</summary><img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.lines.history.svg" alt=""></img></details>        
+        <details open><summary>Repositories and diff history organization</summary><img alt="" width="400" src="output.metrics.plugin.lines.history.organization.svg" alt=""></img></details>
+        <details open><summary>Repositories and diff history hschoi</summary><img alt="" width="400" src="output.metrics.plugin.lines.history.hschoi.svg" alt=""></img></details>
+        <details open><summary>Repositories and diff history matthieu</summary><img alt="" width="400" src="output.metrics.plugin.lines.history.matthieu.svg" alt=""></img></details>        
         <img width="900" height="1" alt="">
       </td>
   </tr>
