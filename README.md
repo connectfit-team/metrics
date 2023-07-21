@@ -28,8 +28,8 @@ Generate metrics that can be embedded everywhere, including your GitHub profile 
   </tr>
   <tr>
         <td  align="center">
-        <details open><summary>Full year calendar</summary><img alt="" width="400" src="output.metrics.plugin.isocalendar.fullyear.hschoi.svg" alt=""></img></details>
-        <details><summary>Half year calendar</summary><img alt="" width="400" src="output.metrics.plugin.isocalendar.fullyear.matthieu.svg" alt=""></img></details>
+        <details open><summary>Full year calendar hschoi</summary><img alt="" width="400" src="output.metrics.plugin.isocalendar.fullyear.hschoi.svg" alt=""></img></details>
+        <details><summary>Half year calendar matthieu</summary><img alt="" width="400" src="output.metrics.plugin.isocalendar.fullyear.matthieu.svg" alt=""></img></details>
         <img width="900" height="1" alt="">
       </td>
         <td  align="center">
