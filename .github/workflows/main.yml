@@ -80,11 +80,22 @@ jobs:
           repositories_skipped: |
             lowlighter/metrics
 
-      - name: Full history calendar
+      - name: Full history calendar hschoi
         uses: lowlighter/metrics@latest
         with:
-          filename: output.metrics.plugin.calendar.full.svg
+          filename: output.metrics.plugin.calendar.full.hschoi.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          user: cnf-hschoi
+          base: ""
+          plugin_calendar: yes
+          plugin_calendar_limit: 0
+
+      - name: Full history calendar matthieu
+        uses: lowlighter/metrics@latest
+        with:
+          filename: output.metrics.plugin.calendar.full.matthieu.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: matthieugusmini
           base: ""
           plugin_calendar: yes
           plugin_calendar_limit: 0
