@@ -115,3 +115,5 @@ source/app/web/statics/preview
 
 # Presets
 .presets
+
+.idea/
