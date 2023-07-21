@@ -43,29 +43,27 @@ jobs:
           base: ""
           plugin_lines: yes
           plugin_lines_sections: repositories, history
-          plugin_lines_repositories_limit: 2
-          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 20
+          plugin_lines_history_limit: 10
           repositories_skipped: |
             @use.patterns
-            */*
-            +lowlighter/metrics
+            lowlighter/metrics
 
       - name: Compact display in base plugin hschoi
         uses: lowlighter/metrics@latest
 
         with:
           filename: output.metrics.plugin.lines.history.hschoi.svg
-          token: ${{ secrets.METRICS_TOKEN_MATTHIEU }}
+          token: ${{ secrets.METRICS_TOKEN }}
           user: cnf-hschoi
           base: ""
           plugin_lines: yes
           plugin_lines_sections: repositories, history
-          plugin_lines_repositories_limit: 2
-          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 20
+          plugin_lines_history_limit: 10
           repositories_skipped: |
             @use.patterns
-            */*
-            +lowlighter/metrics
+            lowlighter/metrics
           
         
       - name: Compact display in base plugin matthieu
@@ -73,13 +71,12 @@ jobs:
         with:
           filename: output.metrics.plugin.lines.history.matthieu.svg
           token: ${{ secrets.METRICS_TOKEN_MATTHIEU }}
-          user: cnf-matthieu
+          user: matthieugusmini
           base: ""
           plugin_lines: yes
           plugin_lines_sections: repositories, history
-          plugin_lines_repositories_limit: 2
-          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 20
+          plugin_lines_history_limit: 10
           repositories_skipped: |
             @use.patterns
-            */*
-            +lowlighter/metrics
+            lowlighter/metrics
