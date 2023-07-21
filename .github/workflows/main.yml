@@ -17,29 +17,29 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
       - name: Full-year calendar_HSCHOI
-        uses: lowlighter/metrics@latest
+#         uses: lowlighter/metrics@latest
         with:
           filename: output.metrics.plugin.isocalendar.fullyear.hschoi.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+#           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
       - name: Full-year calendar_MATTHIEU
-        uses: lowlighter/metrics@latest
+#         uses: lowlighter/metrics@latest
         with:
           filename: output.metrics.plugin.isocalendar.fullyear.matthieu.svg
-          token: ${{ secrets.METRICS_TOKEN_MATTHIEU }}
+#           token: ${{ secrets.METRICS_TOKEN_MATTHIEU }}
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
       - name: Compact display in base plugin organization
-        uses: lowlighter/metrics@latest
+#         uses: lowlighter/metrics@latest
         with:
           filename: output.metrics.plugin.lines.history.organization.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: connectfit-team
+#           token: ${{ secrets.METRICS_TOKEN }}
+          organization: connectfit-team
           base: ""
           plugin_lines: yes
           plugin_lines_sections: repositories, history
@@ -49,11 +49,10 @@ jobs:
             lowlighter/metrics
 
       - name: Compact display in base plugin hschoi
-        uses: lowlighter/metrics@latest
-
+#         uses: lowlighter/metrics@latest
         with:
           filename: output.metrics.plugin.lines.history.hschoi.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+#           token: ${{ secrets.METRICS_TOKEN }}
           user: cnf-hschoi
           base: ""
           plugin_lines: yes
@@ -65,10 +64,10 @@ jobs:
           
         
       - name: Compact display in base plugin matthieu
-        uses: lowlighter/metrics@latest
+#         uses: lowlighter/metrics@latest
         with:
           filename: output.metrics.plugin.lines.history.matthieu.svg
-          token: ${{ secrets.METRICS_TOKEN_MATTHIEU }}
+#           token: ${{ secrets.METRICS_TOKEN_MATTHIEU }}
           user: matthieugusmini
           base: ""
           plugin_lines: yes
