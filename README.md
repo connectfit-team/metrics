@@ -23,14 +23,14 @@ Generate metrics that can be embedded everywhere, including your GitHub profile 
   </tr>
   <tr>
         <td  align="center">
-        <details open><summary>Full year calendar hschoi</summary><img alt="" width="400" src="output.metrics.plugin.isocalendar.fullyear.hschoi.svg" alt=""></img></details>
-        <details open><summary>Full year calendar matthieu</summary><img alt="" width="400" src="output.metrics.plugin.isocalendar.fullyear.matthieu.svg" alt=""></img></details>
+        <details open><summary>Full year calendar hschoi</summary><img alt="" width="400" src="output/metrics.plugin.isocalendar.fullyear.hschoi.svg" alt=""></img></details>
+        <details open><summary>Full year calendar matthieu</summary><img alt="" width="400" src="output/metrics.plugin.isocalendar.fullyear.matthieu.svg" alt=""></img></details>
         <img width="900" height="1" alt="">
       </td>
         <td  align="center">
-        <details open><summary>Repositories and diff history organization</summary><img alt="" width="400" src="output.metrics.plugin.lines.history.organization.svg" alt=""></img></details>
-        <details open><summary>Repositories and diff history hschoi</summary><img alt="" width="400" src="output.metrics.plugin.lines.history.hschoi.svg" alt=""></img></details>
-        <details open><summary>Repositories and diff history matthieu</summary><img alt="" width="400" src="output.metrics.plugin.lines.history.matthieu.svg" alt=""></img></details>        
+        <details open><summary>Repositories and diff history organization</summary><img alt="" width="400" src="output/metrics.plugin.lines.history.organization.svg" alt=""></img></details>
+        <details open><summary>Repositories and diff history hschoi</summary><img alt="" width="400" src="output/metrics.plugin.lines.history.hschoi.svg" alt=""></img></details>
+        <details open><summary>Repositories and diff history matthieu</summary><img alt="" width="400" src="output/metrics.plugin.lines.history.matthieu.svg" alt=""></img></details>        
         <img width="900" height="1" alt="">
       </td>
   </tr>
@@ -44,14 +44,14 @@ Generate metrics that can be embedded everywhere, including your GitHub profile 
         <img width="900" height="1" alt="">
       </td>
         <td  align="center">
-        <details open><summary>Indepth analysis</summary><img alt="" width="400" src="output.metrics.plugin.followup.indepth.svg" alt=""></img></details>
-        <details><summary>Created by a user hschoi</summary><img alt="" width="400" src="output.metrics.plugin.followup.user.hschoi.svg" alt=""></img></details>
-        <details><summary>Created by a user swbae</summary><img alt="" width="400" src="output.metrics.plugin.followup.user.swbae.svg" alt=""></img></details>
-        <details><summary>Created by a user matthieu</summary><img alt="" width="400" src="output.metrics.plugin.followup.user.matthieu.svg" alt=""></img></details>
-        <details><summary>Created by a user jskim</summary><img alt="" width="400" src="output.metrics.plugin.followup.user.jskim.svg" alt=""></img></details>
-        <details><summary>Created by a user sykang</summary><img alt="" width="400" src="output.metrics.plugin.followup.user.sykang.svg" alt=""></img></details>
-        <details><summary>Created by a user jwheo</summary><img alt="" width="400" src="output.metrics.plugin.followup.user.jwheo.svg" alt=""></img></details>
-        <details><summary>Created by a user hykwon</summary><img alt="" width="400" src="output.metrics.plugin.followup.user.hykwon.svg" alt=""></img></details>                                                              
+        <details open><summary>Indepth analysis</summary><img alt="" width="400" src="output/metrics.plugin.followup.indepth.svg" alt=""></img></details>
+        <details><summary>Created by a user hschoi</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.hschoi.svg" alt=""></img></details>
+        <details><summary>Created by a user swbae</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.swbae.svg" alt=""></img></details>
+        <details><summary>Created by a user matthieu</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.matthieu.svg" alt=""></img></details>
+        <details><summary>Created by a user jskim</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.jskim.svg" alt=""></img></details>
+        <details><summary>Created by a user sykang</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.sykang.svg" alt=""></img></details>
+        <details><summary>Created by a user jwheo</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.jwheo.svg" alt=""></img></details>
+        <details><summary>Created by a user hykwon</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.hykwon.svg" alt=""></img></details>                                                              
         <img width="900" height="1" alt="">
       </td>
   </tr>
@@ -66,10 +66,10 @@ Generate metrics that can be embedded everywhere, including your GitHub profile 
         <img width="900" height="1" alt="">
       </td>
       <td  align="center">
-        <details open><summary>Full history metew</summary><img alt="" width="400" src="output.metrics.plugin.calendar.full.matthieu.svg" alt=""></img></details>
-        <details open><summary>Full history hschoi</summary><img alt="" width="400" src="output.metrics.plugin.calendar.full.hschoi.svg" alt=""></img></details>
-        <details open><summary>Full history swbae</summary><img alt="" width="400" src="output.metrics.plugin.calendar.full.swbae.svg" alt=""></img></details>
-        <details open><summary>Full history ludwig92</summary><img alt="" width="400" src="output.metrics.plugin.calendar.full.ludwig92.svg" alt=""></img></details>
+        <details open><summary>Full history metew</summary><img alt="" width="400" src="output/metrics.plugin.calendar.full.matthieu.svg" alt=""></img></details>
+        <details open><summary>Full history hschoi</summary><img alt="" width="400" src="output/metrics.plugin.calendar.full.hschoi.svg" alt=""></img></details>
+        <details open><summary>Full history swbae</summary><img alt="" width="400" src="output/metrics.plugin.calendar.full.swbae.svg" alt=""></img></details>
+        <details open><summary>Full history ludwig92</summary><img alt="" width="400" src="output/metrics.plugin.calendar.full.ludwig92.svg" alt=""></img></details>
         <img width="900" height="1" alt="">
       </td>
   </tr>
