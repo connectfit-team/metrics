@@ -105,7 +105,7 @@ inputs:
       Broad affiliations will result in less representative metrics.
     type: array
     format: comma-separated
-    default: owner
+    default: ""
     values:
       - owner
       - collaborator
