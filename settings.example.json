@@ -65,7 +65,7 @@
   "plugins.default": false,             "//": "Default plugin state (advised to let 'false' unless in debug mode)",
   "plugins": {                          "//": "Global plugin configuration",
     "isocalendar":{
-      "enabled": false,                 "//": "Enable isocalendar plugin"
+      "enabled": true,                 "//": "Enable isocalendar plugin"
     },
     "languages":{
       "enabled": false,                 "//": "Enable languages plugin"
@@ -75,7 +75,7 @@
       "enabled": false,                 "//": "Enable stargazers plugin"
     },
     "lines":{
-      "enabled": false,                 "//": "Enable lines plugin"
+      "enabled": true,                 "//": "Enable lines plugin"
     },
     "topics":{
       "enabled": false,                 "//": "Enable topics plugin"
@@ -90,10 +90,10 @@
       "enabled": false,                 "//": "Enable habits plugin"
     },
     "contributors":{
-      "enabled": false,                 "//": "Enable contributors plugin"
+      "enabled": true,                 "//": "Enable contributors plugin"
     },
     "followup":{
-      "enabled": false,                 "//": "Enable followup plugin"
+      "enabled": true,                 "//": "Enable followup plugin"
     },
     "reactions":{
       "enabled": false,                 "//": "Enable reactions plugin"
@@ -108,7 +108,7 @@
       "enabled": false,                 "//": "Enable sponsors plugin"
     },
     "repositories":{
-      "enabled": false,                 "//": "Enable repositories plugin"
+      "enabled": true,                 "//": "Enable repositories plugin"
     },
     "discussions":{
       "enabled": false,                 "//": "Enable discussions plugin"
@@ -117,7 +117,7 @@
       "enabled": false,                 "//": "Enable starlists plugin"
     },
     "calendar":{
-      "enabled": false,                 "//": "Enable calendar plugin"
+      "enabled": true,                 "//": "Enable calendar plugin"
     },
     "achievements":{
       "enabled": false,                 "//": "Enable achievements plugin"
@@ -126,7 +126,7 @@
       "enabled": false,                 "//": "Enable notable plugin"
     },
     "activity":{
-      "enabled": false,                 "//": "Enable activity plugin"
+      "enabled": true,                 "//": "Enable activity plugin"
     },
     "traffic":{
       "enabled": false,                 "//": "Enable traffic plugin"
