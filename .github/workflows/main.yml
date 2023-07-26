@@ -24,7 +24,7 @@ jobs:
       - name: Full-year calendar_HSCHOI
         uses: lowlighter/metrics@latest
         with:
-          filename: output.metrics.plugin.isocalendar.fullyear.hschoi.svg
+          filename: output/metrics.plugin.isocalendar.fullyear.hschoi.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
