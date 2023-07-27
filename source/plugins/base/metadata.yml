@@ -107,6 +107,7 @@ inputs:
     format: comma-separated
     default: ""
     values:
+      - ""
       - owner
       - collaborator
       - organization_member
