@@ -57,37 +57,7 @@ Generate metrics that can be embedded everywhere, including your GitHub profile 
         <details><summary>Created by a user hykwon</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.hykwon.svg" alt=""></img></details>                                                              
         <img width="900" height="1" alt="">
       </td>
-  </tr>
-  <tr>
-    <th><a href="source/plugins/starlists/README.md">💫 Star lists</a></th>
-    <th><a href="source/plugins/calendar/README.md">📆 Commit calendar</a></th>
-  </tr>
-  <tr>
-        <td  align="center">
-        <details open><summary>Repositories from star lists</summary><img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.starlists.svg" alt=""></img></details>
-        <details open><summary>Languages from star lists</summary><img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.starlists.languages.svg" alt=""></img></details>
-        <img width="900" height="1" alt="">
-      </td>
-      <td  align="center">
-        <details open><summary>Full history metew</summary><img alt="" width="400" src="output/metrics.plugin.calendar.full.matthieu.svg" alt=""></img></details>
-        <details open><summary>Full history hschoi</summary><img alt="" width="400" src="output/metrics.plugin.calendar.full.hschoi.svg" alt=""></img></details>
-        <details open><summary>Full history swbae</summary><img alt="" width="400" src="output/metrics.plugin.calendar.full.swbae.svg" alt=""></img></details>
-        <details open><summary>Full history ludwig92</summary><img alt="" width="400" src="output/metrics.plugin.calendar.full.ludwig92.svg" alt=""></img></details>
-        <img width="900" height="1" alt="">
-      </td>
-  </tr>
-  <tr>
-    <th><a href="source/plugins/steam/README.md">🕹️ Steam</a></th>
-    <th></th>
-  </tr>
-  <tr>
-        <td  align="center">
-        <details open><summary>Recently played games</summary><img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.steam.svg" alt=""></img></details>
-        <details><summary>Profile and detailed game history</summary><img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.steam.full.svg" alt=""></img></details>
-        <img width="900" height="1" alt="">
-      </td>
-    <td align="center"><img width="900" height="1" alt=""></td>
-  </tr>
+  </tr>  
   <tr>
     <th colspan="2" align="center">
       <a href="/source/plugins/community/README.md">🎲 See also community plugins</a>
