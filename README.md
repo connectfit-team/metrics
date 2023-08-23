@@ -35,12 +35,15 @@ Generate metrics that can be embedded everywhere, including your GitHub profile 
       </td>
   </tr>
   <tr>
-    <th><a href="source/plugins/reactions/README.md">🎭 Comment reactions</a></th>
+    <th><a href="source/plugins/reactions/README.md">📆 Commit calendar</a></th>
     <th><a href="source/plugins/followup/README.md">🎟️ Follow-up of issues and pull requests</a></th>
   </tr>
   <tr>
-        <td  align="center">
-        <img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.reactions.svg" alt=""></img>
+      <td  align="center">
+        <details open><summary>Full history metew</summary><img alt="" width="400" src="output/metrics.plugin.calendar.full.matthieu.svg" alt=""></img></details>
+        <details open><summary>Full history hschoi</summary><img alt="" width="400" src="output/metrics.plugin.calendar.full.hschoi.svg" alt=""></img></details>
+        <details open><summary>Full history swbae</summary><img alt="" width="400" src="output/metrics.plugin.calendar.full.swbae.svg" alt=""></img></details>
+        <details open><summary>Full history ludwig92</summary><img alt="" width="400" src="output/metrics.plugin.calendar.full.ludwig92.svg" alt=""></img></details>
         <img width="900" height="1" alt="">
       </td>
         <td  align="center">
