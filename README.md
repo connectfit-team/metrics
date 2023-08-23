@@ -48,13 +48,13 @@ Generate metrics that can be embedded everywhere, including your GitHub profile 
       </td>
         <td  align="center">
         <details open><summary>Indepth analysis</summary><img alt="" width="400" src="output/metrics.plugin.followup.indepth.svg" alt=""></img></details>
-        <details><summary>Created by a user hschoi</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.hschoi.svg" alt=""></img></details>
-        <details><summary>Created by a user swbae</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.swbae.svg" alt=""></img></details>
-        <details><summary>Created by a user matthieu</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.matthieu.svg" alt=""></img></details>
-        <details><summary>Created by a user jskim</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.jskim.svg" alt=""></img></details>
-        <details><summary>Created by a user sykang</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.sykang.svg" alt=""></img></details>
-        <details><summary>Created by a user jwheo</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.jwheo.svg" alt=""></img></details>
-        <details><summary>Created by a user hykwon</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.hykwon.svg" alt=""></img></details>                                                              
+        <details open><summary>Created by a user hschoi</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.hschoi.svg" alt=""></img></details>
+        <details open><summary>Created by a user swbae</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.swbae.svg" alt=""></img></details>
+        <details open><summary>Created by a user matthieu</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.matthieu.svg" alt=""></img></details>
+        <details open><summary>Created by a user jskim</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.jskim.svg" alt=""></img></details>
+        <details open><summary>Created by a user sykang</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.sykang.svg" alt=""></img></details>
+        <details open><summary>Created by a user jwheo</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.jwheo.svg" alt=""></img></details>
+        <details open><summary>Created by a user hykwon</summary><img alt="" width="400" src="output/metrics.plugin.followup.user.hykwon.svg" alt=""></img></details>                                                              
         <img width="900" height="1" alt="">
       </td>
   </tr>  
