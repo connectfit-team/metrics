@@ -19,6 +19,7 @@ jobs:
           filename: metrics.base.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
+          repositories_affiliations: owner, collaborator, organization_member
 
 ### isocalendar
       - name: Full-year calendar_HSCHOI
@@ -145,6 +146,7 @@ jobs:
 #          plugin_followup_indepth: yes
           plugin_followup_sections: user
 #          plugin_followup_archived: yes
+          repositories_affiliations: owner, collaborator, organization_member
           
       - name: Opened by user swbae
         uses: lowlighter/metrics@latest
