@@ -22,23 +22,23 @@ jobs:
           repositories_affiliations: owner, collaborator, organization_member
 
 ### isocalendar
-      - name: Full-year calendar_HSCHOI
-        uses: lowlighter/metrics@latest
-        with:
-          filename: output/metrics.plugin.isocalendar.fullyear.hschoi.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-
-      - name: Full-year calendar_MATTHIEU
-        uses: lowlighter/metrics@latest
-        with:
-          filename: output/metrics.plugin.isocalendar.fullyear.matthieu.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+#      - name: Full-year calendar_HSCHOI
+#        uses: lowlighter/metrics@latest
+#        with:
+#          filename: output/metrics.plugin.isocalendar.fullyear.hschoi.svg
+#          token: ${{ secrets.METRICS_TOKEN }}
+#          base: ""
+#          plugin_isocalendar: yes
+#          plugin_isocalendar_duration: full-year
+#
+#      - name: Full-year calendar_MATTHIEU
+#        uses: lowlighter/metrics@latest
+#        with:
+#          filename: output/metrics.plugin.isocalendar.fullyear.matthieu.svg
+#          token: ${{ secrets.METRICS_TOKEN }}
+#          base: ""
+#          plugin_isocalendar: yes
+#          plugin_isocalendar_duration: full-year
 
 ### history lines
       - name: Compact display in base plugin organization
@@ -85,45 +85,45 @@ jobs:
             metrics
 
 ### commit calendar
-      - name: Full history calendar hschoi
-        uses: lowlighter/metrics@latest
-        with:
-          filename: output/metrics.plugin.calendar.full.hschoi.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: cnf-hschoi
-          base: ""
-          plugin_calendar: yes
-          plugin_calendar_limit: 0
-
-      - name: Full history calendar matthieu
-        uses: lowlighter/metrics@latest
-        with:
-          filename: output/metrics.plugin.calendar.full.matthieu.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: matthieugusmini
-          base: ""
-          plugin_calendar: yes
-          plugin_calendar_limit: 0
-          
-      - name: Full history calendar swbae
-        uses: lowlighter/metrics@latest
-        with:
-          filename: output/metrics.plugin.calendar.full.swbae.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: cnf-swbae
-          base: ""
-          plugin_calendar: yes
-          plugin_calendar_limit: 0
-
-      - name: Full history calendar ludwig92
-        uses: lowlighter/metrics@latest
-        with:
-          filename: output/metrics.plugin.calendar.full.ludwig92.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: ludwig92
-          base: ""
-          plugin_calendar: yes
-          plugin_calendar_limit: 0
+#      - name: Full history calendar hschoi
+#        uses: lowlighter/metrics@latest
+#        with:
+#          filename: output/metrics.plugin.calendar.full.hschoi.svg
+#          token: ${{ secrets.METRICS_TOKEN }}
+#          user: cnf-hschoi
+#          base: ""
+#          plugin_calendar: yes
+#          plugin_calendar_limit: 0
+#
+#      - name: Full history calendar matthieu
+#        uses: lowlighter/metrics@latest
+#        with:
+#          filename: output/metrics.plugin.calendar.full.matthieu.svg
+#          token: ${{ secrets.METRICS_TOKEN }}
+#          user: matthieugusmini
+#          base: ""
+#          plugin_calendar: yes
+#          plugin_calendar_limit: 0
+#
+#      - name: Full history calendar swbae
+#        uses: lowlighter/metrics@latest
+#        with:
+#          filename: output/metrics.plugin.calendar.full.swbae.svg
+#          token: ${{ secrets.METRICS_TOKEN }}
+#          user: cnf-swbae
+#          base: ""
+#          plugin_calendar: yes
+#          plugin_calendar_limit: 0
+#
+#      - name: Full history calendar ludwig92
+#        uses: lowlighter/metrics@latest
+#        with:
+#          filename: output/metrics.plugin.calendar.full.ludwig92.svg
+#          token: ${{ secrets.METRICS_TOKEN }}
+#          user: ludwig92
+#          base: ""
+#          plugin_calendar: yes
+#          plugin_calendar_limit: 0
           
 ### pull reqeust
       - name: Indepth analysis
@@ -144,7 +144,7 @@ jobs:
           base: ""
           plugin_followup: yes
 #          plugin_followup_indepth: yes
-          plugin_followup_sections: user
+          plugin_followup_sections: user, repositories
 #          plugin_followup_archived: yes
           repositories_affiliations: owner, collaborator, organization_member
           
@@ -168,44 +168,44 @@ jobs:
           plugin_followup: yes
           plugin_followup_sections: user
           
-      - name: Opened by user jskim
-        uses: lowlighter/metrics@latest
-        with:
-          filename: output/metrics.plugin.followup.user.jskim.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Jinsookim007
-          base: ""
-          plugin_followup: yes
-          plugin_followup_sections: user
-          
-      - name: Opened by user sykang
-        uses: lowlighter/metrics@latest
-        with:
-          filename: output/metrics.plugin.followup.user.sykang.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: sykang-fit
-          base: ""
-          plugin_followup: yes
-          plugin_followup_sections: repositories                    
-          plugin_followup_indepth: yes
-
-      - name: Opened by user jwheo
-        uses: lowlighter/metrics@latest
-        with:
-          filename: output/metrics.plugin.followup.user.jwheo.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: jwheo144
-          base: ""
-          plugin_followup: yes
-          plugin_followup_sections: user
-          plugin_followup_indepth: yes
-
-      - name: Opened by user hykwon
-        uses: lowlighter/metrics@latest
-        with:
-          filename: output/metrics.plugin.followup.user.hykwon.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: bluuudawn
-          base: ""
-          plugin_followup: yes
-          plugin_followup_sections: repositories          
+#      - name: Opened by user jskim
+#        uses: lowlighter/metrics@latest
+#        with:
+#          filename: output/metrics.plugin.followup.user.jskim.svg
+#          token: ${{ secrets.METRICS_TOKEN }}
+#          user: Jinsookim007
+#          base: ""
+#          plugin_followup: yes
+#          plugin_followup_sections: user
+#
+#      - name: Opened by user sykang
+#        uses: lowlighter/metrics@latest
+#        with:
+#          filename: output/metrics.plugin.followup.user.sykang.svg
+#          token: ${{ secrets.METRICS_TOKEN }}
+#          user: sykang-fit
+#          base: ""
+#          plugin_followup: yes
+#          plugin_followup_sections: repositories
+#          plugin_followup_indepth: yes
+#
+#      - name: Opened by user jwheo
+#        uses: lowlighter/metrics@latest
+#        with:
+#          filename: output/metrics.plugin.followup.user.jwheo.svg
+#          token: ${{ secrets.METRICS_TOKEN }}
+#          user: jwheo144
+#          base: ""
+#          plugin_followup: yes
+#          plugin_followup_sections: user
+#          plugin_followup_indepth: yes
+#
+#      - name: Opened by user hykwon
+#        uses: lowlighter/metrics@latest
+#        with:
+#          filename: output/metrics.plugin.followup.user.hykwon.svg
+#          token: ${{ secrets.METRICS_TOKEN }}
+#          user: bluuudawn
+#          base: ""
+#          plugin_followup: yes
+#          plugin_followup_sections: repositories
