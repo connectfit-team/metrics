@@ -147,6 +147,7 @@ jobs:
           plugin_followup_sections: user, repositories
 #          plugin_followup_archived: yes
           repositories_affiliations: owner, collaborator, organization_member
+          user: connectfit-team
           
       - name: Opened by user swbae
         uses: lowlighter/metrics@latest
